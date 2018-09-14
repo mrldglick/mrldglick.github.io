@@ -1,0 +1,28 @@
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex: wrap;
+  background-color: snow; }
+nav li {
+  list-style: none;
+  padding: 0 10px; }
+  nav li:not(:last-child) {
+    border-right: #333 1px; }
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  height: 50px; }
+
+body {
+  background-color: #eee;
+  color: #333; }
+
+h2 {
+  color: blue; }
+
+.jumpt-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+
+/*# sourceMappingURL=style.css.map */
